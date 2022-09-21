@@ -10,4 +10,8 @@ dependencies:
   - appdirs
   - pybtex
   - tornado
+  - numpy
+  - plotly
+  - scipy
+  - tenacity
 prefix: /Users/anonymous/opt/miniconda3/envs/heartdown
