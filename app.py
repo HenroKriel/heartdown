@@ -250,7 +250,7 @@ def save_output_code(md, path):
 
 
 def process_input(content, input_dir='.', resource_dir='.', file_name='result',
-                  parser_type=ParserTypeEnum.NUMPY | ParserTypeEnum.EIGEN | ParserTypeEnum.MATLAB, ParserTypeEnum.GLSL,
+                  parser_type=ParserTypeEnum.NUMPY | ParserTypeEnum.EIGEN | ParserTypeEnum.MATLAB | ParserTypeEnum.GLSL,
                   server_mode=False):
     """
     Given the source string, generate the html result
