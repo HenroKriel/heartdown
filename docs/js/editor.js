@@ -191,7 +191,7 @@ function onLoad(){
 }
 
 function convert(input) {
-    showIframe();
+    pickIframe();
     // output.innerHTM = `<iframe srcdoc=`${input}`></iframe>`;
     // MathJax.texReset();
     // var options = MathJax.getMetricsFor(output);
@@ -206,14 +206,27 @@ function convert(input) {
     // });
 }
 
-function showIframe(){
+function pickIframe() {
+    const req = new XMLHttpRequest();
+    req.open("get", "./scene.html", true);
+    try {
+        req.send(null);
+        //show scene if file exists
+        showIframe("./scene.html");
+    }
+    catch(e) {
+        showIframe(`./${curFileName}.html`)
+    }
+}
+
+function showIframe(filename){
     output = document.getElementById('output');
     while (output.firstChild) {
         output.removeChild(output.firstChild);
     }
     var iframe = document.createElement('iframe');
     iframe.setAttribute("id", "res");
-    iframe.src = encodeURI(`./${curFileName}.html`);
+    iframe.src = encodeURI(filename);
     output.appendChild(iframe);
     // iframe.contentWindow.document.open();
     // iframe.contentWindow.document.write(curHtml);
