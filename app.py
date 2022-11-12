@@ -246,6 +246,8 @@ def save_output_code(md, path):
             save_to_file(md.lib_matlab, "{}/{}/lib.m".format(path, OUTPUT_CODE))
         if md.lib_glsl != '':
             save_to_file(md.lib_glsl, "{}/{}/lib.glsl".format(path, OUTPUT_CODE))
+        if md.scene != '':
+            save_to_file(md.scene, "{}/scene.html".format(path))
 
 
 
