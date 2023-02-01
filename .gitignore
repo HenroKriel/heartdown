@@ -9,6 +9,7 @@
 *.fls
 *.synctex
 .idea/
+examples/
 
 # pyinstaller creates these
 /build
