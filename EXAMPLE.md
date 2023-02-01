@@ -40,6 +40,18 @@ a ∈ ℝ
 ```
 
 ```scene
-shapes = [{type = "torus", transform = "T((x,0,5))⋅`R_x`(r)\nwhere\nx ∈ ℝ\nr ∈ ℝ"},
-          {type = "torus", transform = "T((x,0,5))\nwhere\nx ∈ ℝ"}]
+[[shapes]]
+type = "torus"
+transform = """
+T((x,0,5))⋅`R_x`(r)
+where
+x ∈ ℝ
+r ∈ ℝ"""
+
+[[shapes]]
+type = "torus"
+transform = """
+T((x,0,5))
+where\n
+x ∈ ℝ"""
 ```
