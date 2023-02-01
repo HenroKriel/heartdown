@@ -15,4 +15,6 @@ dependencies:
   - scipy
   - tenacity
   - toml
+  - nuitka
+  - orderedset
 prefix: /Users/anonymous/opt/miniconda3/envs/heartdown
