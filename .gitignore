@@ -9,7 +9,8 @@
 *.fls
 *.synctex
 .idea/
-examples/
+/examples/*
+!/examples/*.md
 
 # pyinstaller creates these
 /build
