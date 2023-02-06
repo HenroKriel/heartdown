@@ -4,27 +4,29 @@ full_paper: False
 
 ❤: phong
 ```iheartla
-`I_p` = `k_a`∘`i_a` + (L̂⋅N̂)`k_d`∘D + max(0, R̂⋅V̂)^α`k_s`∘S
-L̂ = (P-p)/‖P-p‖
+material
+`C` = `k_a`∘`i_a` + (L̂⋅N̂)`k_d`∘D + max(0, R̂⋅V̂)^α`k_s`∘S
+L̂ = (`P_L`-p)/‖`P_L`-p‖
 R̂ = 2(L̂⋅N̂)N̂ - L̂
 `i_a` = A
+V̂ = I - p
 
 where
+p ∈ ℝ³: point on surface
+N̂ ∈ ℝ³: normal at the point on the surface
+I ∈ ℝ³: eye/camera position
 `k_a`, `k_d`, `k_s` ∈ ℝ³: object material colors and the ambient color
 A ∈ ℝ³: ambient light color
 α ∈ ℝ: object shininess
-P ∈ ℝ³: light positions
-p ∈ ℝ³: point on surface
+`P_L` ∈ ℝ³: light positions
 D ∈ ℝ³: light diffuse colors
 S ∈ ℝ³: light specular colors
-N̂ ∈ ℝ³: normal at the point on the surface
-V̂ ∈ ℝ³: direction towards the viewer
 ```
 
 ❤: sphere
 ```iheartla
 shape
-d = ‖p‖ - 2
+D = ‖p‖ - 2
 where
 p ∈ ℝ³
 ```
@@ -32,7 +34,7 @@ p ∈ ℝ³
 ❤: torus
 ```iheartla
 shape
-d = ‖q‖ - 1
+D = ‖q‖ - 1
 q = (‖(p_1, p_3)‖ - a, p_2)
 where
 p ∈ ℝ³
@@ -42,6 +44,7 @@ a ∈ ℝ
 ```scene
 [[shapes]]
 type = "torus"
+material = "phong"
 transform = """
 T((x,0,5))⋅`R_x`(r)
 where
@@ -50,6 +53,7 @@ r ∈ ℝ"""
 
 [[shapes]]
 type = "torus"
+material = "phong"
 transform = """
 T((x,0,5))
 where\n
