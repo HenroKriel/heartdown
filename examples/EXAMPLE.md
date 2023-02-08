@@ -52,6 +52,6 @@ r ∈ ℝ"""
 type = "torus"
 transform = """
 T((x,0,5))
-where\n
+where
 x ∈ ℝ"""
 ```

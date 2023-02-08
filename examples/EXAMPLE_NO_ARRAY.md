@@ -56,6 +56,6 @@ type = "torus"
 material = "phong"
 transform = """
 T((x,0,5))
-where\n
+where
 x ∈ ℝ"""
 ```
