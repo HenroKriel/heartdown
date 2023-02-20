@@ -15,7 +15,7 @@ p ∈ ℝ³: point on surface
 N̂ ∈ ℝ³: normal at the point on the surface
 I ∈ ℝ³: eye/camera position
 `P_L` ∈ ℝ³: light positions
-D ∈ [0,1]x[0,1]x[0,1]: light diffuse colors
+D ∈ [0,1]x[0,1]x[0,1] default = (1, 0, 0): light diffuse colors
 ```
 
 ❤: sphere
@@ -33,7 +33,7 @@ D = ‖q‖ - t_2
 q = (‖(p_1, p_3)‖ - t_1, p_2)
 where
 p ∈ ℝ³
-t ∈ [0,2]x[0,2]
+t ∈ [0,2]x[0,2] default = (0.77, 0.6)
 ```
 
 ```scene
@@ -44,8 +44,8 @@ transform = """
 sin from trigonometry
 T(X)⋅`R_x`(r)
 where
-X ∈ [-5,5]x[-5,5]x[2,10]
-r ∈ [-π,π]"""
+X ∈ [-5,5]x[-5,5]x[2,10] default = (-2, 0, 5)
+r ∈ [-3,3] default = 1.5"""
 
 [[shapes]]
 type = "torus"
