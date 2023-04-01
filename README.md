@@ -1,6 +1,6 @@
-# H❤️rtDown: Document Processor for Executable Linear Algebra Papers
+![thesis-screenshot](https://user-images.githubusercontent.com/57759778/229257698-f7a526b0-f4bd-4356-b83d-72b5177b3838.png)
 
-H❤️rtDown is an authoring environment for linear algebra papers. The papers compile to interactive web pages and code libraries that can be used inline to create figures or in external code.
+# IH❤️IQ
 
 ## Installing
 
