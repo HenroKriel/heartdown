@@ -2,6 +2,8 @@
 
 # IH❤️IQ
 
+A shader graphing calculator for signed distance functions (SDFs).
+
 ## Installing
 
 Install [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
