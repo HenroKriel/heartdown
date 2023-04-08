@@ -1,7 +1,3 @@
----
-full_paper: False
----
-
 ❤: phong
 ```iheartla
 material
