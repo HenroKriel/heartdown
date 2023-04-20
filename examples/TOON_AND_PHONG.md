@@ -1,10 +1,23 @@
-❤: phong
+❤:toon
 ```iheartla
 material
-`C` = (L̂⋅N̂)D
+`C` = w D
+w = ⌊3(L̂⋅N̂)+1⌋/3
 L̂ = (`P_L`-p)/‖`P_L`-p‖
-R̂ = 2(L̂⋅N̂)N̂ - L̂
-V̂ = I - p
+
+where
+p ∈ ℝ³: point on surface
+N̂ ∈ ℝ³: normal at the point on the surface
+I ∈ ℝ³: eye/camera position
+`P_L` ∈ ℝ³: light positions
+D ∈ [0,1]x[0,1]x[0,1] default = (1, 0, 0): light diffuse colors
+```
+
+❤:phong
+```iheartla
+material
+`C` = (L̂⋅N̂)D 
+L̂ = (`P_L`-p)/‖`P_L`-p‖
 
 where
 p ∈ ℝ³: point on surface
@@ -37,17 +50,17 @@ t ∈ [0,2]x[0,2] default = (0.77, 0.6)
 type = "torus"
 material = "phong"
 transform = """
-sin from trigonometry
 T(X)⋅`R_x`(r)
 where
-X ∈ [-5,5]x[-5,5]x[2,10] default = (-2, 0, 5)
-r ∈ [-3,3] default = 1.5"""
+X ∈ [-5,5]x[-5,5]x[2,10] default = (-1.37, 0, 5)
+r ∈ [-3,3] default = 2.73"""
 
 [[shapes]]
 type = "torus"
-material = "phong"
+material = "toon"
 transform = """
-T((x,0,5))
+T(X)⋅`R_x`(r)
 where
-x ∈ ℝ"""
+X ∈ [-5,5]x[-5,5]x[2,10] default = (2, 0, 5)
+r ∈ [-3,3] default = 2.73"""
 ```
