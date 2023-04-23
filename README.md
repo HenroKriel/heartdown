@@ -1,4 +1,7 @@
 ![thesis-screenshot](https://user-images.githubusercontent.com/57759778/229257698-f7a526b0-f4bd-4356-b83d-72b5177b3838.png)
+![specular phong](https://user-images.githubusercontent.com/57759778/233797570-670987a8-8ef8-4ff5-8f04-263d52f0774d.png)
+![toon and phong](https://user-images.githubusercontent.com/57759778/233797589-5449b629-7a34-44de-8e4c-d280b73c85ef.png)
+![box frame](https://user-images.githubusercontent.com/57759778/233797593-88a226e4-ae83-41e3-a987-39064e837b72.png)
 
 # IH❤️IQ
 
