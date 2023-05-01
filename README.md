@@ -5,7 +5,7 @@
 
 # IH❤️IQ
 
-A shader graphing calculator for signed distance functions (SDFs), inspired by the work of [Inigo Quilez](https://iquilezles.org/).
+A shader graphing calculator for signed distance functions (SDFs), inspired by the work of [Inigo Quilez](https://iquilezles.org/). Example scenes can be found in the examples directory.
 
 ## Installing
 
