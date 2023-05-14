@@ -5,7 +5,9 @@
 
 # IH❤️IQ
 
-A shader graphing calculator for signed distance functions (SDFs), inspired by the work of [Inigo Quilez](https://iquilezles.org/). Example scenes can be found in the examples directory.
+A shader graphing calculator for signed distance functions (SDFs), forked from H❤️rtDown and inspired by the work of [Inigo Quilez](https://iquilezles.org/). Example scenes can be found in the examples directory.
+
+[(Click here for the writeup)](https://github.com/HenroKriel/heartdown/files/11472474/ms_thesis.pdf)
 
 ## Installing
 
@@ -25,7 +27,3 @@ To launch the editor, run:
     python server.py path/to/document.md
 
 and then open `http://localhost:8000/` in a browser (Chrome is most tested).
-
-To compile a paper from the command line:
-
-    python server.py --paper path/to/document.md
