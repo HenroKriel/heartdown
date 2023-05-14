@@ -7,7 +7,7 @@
 
 A shader graphing calculator for signed distance functions (SDFs), forked from H❤️rtDown and inspired by the work of [Inigo Quilez](https://iquilezles.org/). Example scenes can be found in the examples directory.
 
-[(Click here for the writeup)](https://github.com/HenroKriel/heartdown/files/11472474/ms_thesis.pdf)
+Thesis paper: [PDF](https://github.com/HenroKriel/heartdown/files/11472474/ms_thesis.pdf)
 
 ## Installing
 
