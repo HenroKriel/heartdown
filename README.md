@@ -2,6 +2,8 @@
 
 [![preview](https://github.com/HenroKriel/heartdown/assets/57759778/85512d73-e8d9-44bd-a8d6-b230cdd6573a)](https://www.youtube.com/watch?v=WofSfaGkyDs)
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/WofSfaGkyDs/0.jpg)](http://www.youtube.com/watch?v=WofSfaGkyDs "Video Title")
+
 # Gallery
 
 ![thesis-screenshot](https://user-images.githubusercontent.com/57759778/229257698-f7a526b0-f4bd-4356-b83d-72b5177b3838.png)
