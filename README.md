@@ -1,4 +1,4 @@
-[VIDEO DEMONSTRATION](https://www.youtube.com/watch?v=WofSfaGkyDs)
+# [VIDEO DEMONSTRATION](https://www.youtube.com/watch?v=WofSfaGkyDs)
 
 ![thesis-screenshot](https://user-images.githubusercontent.com/57759778/229257698-f7a526b0-f4bd-4356-b83d-72b5177b3838.png)
 ![specular phong](https://user-images.githubusercontent.com/57759778/233797570-670987a8-8ef8-4ff5-8f04-263d52f0774d.png)
