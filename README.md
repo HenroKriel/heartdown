@@ -1,6 +1,6 @@
 # Video Demo
 
-[<picture> <img src="https://github.com/HenroKriel/heartdown/assets/57759778/85512d73-e8d9-44bd-a8d6-b230cdd6573a"> </picture>](https://www.youtube.com/watch?v=WofSfaGkyDs "test")
+[<picture> <img src="https://github.com/HenroKriel/heartdown/assets/57759778/85512d73-e8d9-44bd-a8d6-b230cdd6573a"> </picture>](https://www.youtube.com/watch?v=WofSfaGkyDs)
 
 # Gallery
 
